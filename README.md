@@ -67,3 +67,9 @@ export default defineConfig([
   },
 ])
 ```
+---
+
+## 배포 자동화 테스트
+
+GitHub에 변경 사항을 push한 후 Vercel Production 배포가 자동으로 생성되는지 확인합니다.
+
