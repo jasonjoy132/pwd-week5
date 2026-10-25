@@ -215,7 +215,7 @@ function AdminPage() {
             </tbody>
           </Table>
         </Panel>
-
+        
         <Panel>
           <h3>{selected ? `수정: ${selected.name}` : '새 레스토랑 추가'}</h3>
           <form onSubmit={handleSubmit(onSubmit)}>
